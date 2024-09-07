@@ -1,0 +1,40 @@
+به نام خدا
+ تعدادی از IDEهای مورد استفاده برای زبان برنامه‌نویسی جاوا را نام ببرید.
+Eclipse ، NetBeans، IntelliJ IDEA، JDeveloper، DrJava، BlueJ، jCreator، jGRASP، Android Studio، Greenfoot
+ لیست content type های معتبر در  request type را بیاورید.
+در پروتکل HTTP، هدر Content-Type مشخص میکند که محتوای ارسال شده در یک درخواست یا پاسخ HTTP از چه نوعی است. این هدر برای تعیین نوع داده‌ای که در بدنه (body) درخواست یا پاسخ قرار دارد، استفاده میشود. در زیر برخی از نوع‌های معتبر Content-Type در HTTP آورده شده‌اند:
+1. text/plain:
+   - برای ارسال متن ساده بدون هیچ‌گونه قالب‌بندی.
+   - مثال: Content-Type: text/plain
+2. text/html:
+   - برای ارسال محتوای HTML.
+   - مثال: Content-Type: text/html
+3. application/json:
+   - برای ارسال داده‌ها به صورت JSON.
+   - مثال: Content-Type: application/json
+4. application/xml:
+   - برای ارسال داده‌ها به صورت XML.
+   - مثال: Content-Type: application/xml
+5. application/x-www-form-urlencoded:
+   - برای ارسال داده‌ها به صورت فرم URL-encoded (معمولاً در فرم‌های HTML استفاده میشود).
+   - مثال: Content-Type: application/x-www-form-urlencoded
+6. multipart/form-data:
+   - برای ارسال داده‌های چندبخشی (مثلاً فایل‌ها و داده‌های متنی از فرم HTML).
+   - مثال: Content-Type: multipart/form-data
+7. application/octet-stream:
+   - برای ارسال داده‌های باینری (مثلاً فایل‌ها).
+   - مثال: `Content-Type: application/octet-stream`
+8. image/png, image/jpeg, image/gif:
+   - برای ارسال تصاویر با فرمت‌های مختلف.
+   - مثال: Content-Type: image/png
+9. audio/mpeg, audio/ogg, audio/wav:
+   - برای ارسال فایل‌های صوتی.
+   - مثال: Content-Type: audio/mpeg
+10. video/mp4, video/webm, video/ogg:
+    - برای ارسال فایل‌های ویدئویی.
+    - مثال: Content-Type: video/mp4
+این نوع‌ها متداول‌ترین نوع‌های Content-Type هستند که در درخواست‌ها و پاسخ‌های HTTP استفاده میشوند. بر اساس نوع محتوایی که ارسال یا دریافت میکنید، باید نوع Content-Type مناسب را انتخاب کنید.
+
+
+ اسم چند سرور جاوایی را نام ببرید.
+تامکت، گلس‌فیش، جاوا وایلدفلای، جاواهاستینگ

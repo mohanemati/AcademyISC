@@ -1,0 +1,74 @@
+<School>
+    <Students>
+        <Student>
+            <FirstName>Ali</FirstName>
+            <LastName>Rezaei</LastName>
+            <StudentID>12345678</StudentID>
+            <Major>Computer Science</Major>
+            <Courses>
+                <CourseID>CS101</CourseID>
+                <CourseID>CS102</CourseID>
+            </Courses>
+        </Student>
+        <Student>
+            <FirstName>Sara</FirstName>
+            <LastName>Jafari</LastName>
+            <StudentID>87654321</StudentID>
+            <Major>Mathematics</Major>
+            <Courses>
+                <CourseID>MA101</CourseID>
+                <CourseID>MA102</CourseID>
+            </Courses>
+        </Student>
+    </Students>
+    
+    <Professors>
+        <Professor>
+            <FirstName>Reza</FirstName>
+            <LastName>Mohammadi</LastName>
+            <ProfessorID>9001</ProfessorID>
+            <Department>Computer Science</Department>
+            <Courses>
+                <CourseID>CS101</CourseID>
+                <CourseID>CS102</CourseID>
+            </Courses>
+        </Professor>
+        <Professor>
+            <FirstName>Maryam</FirstName>
+            <LastName>Ahmadi</LastName>
+            <ProfessorID>9002</ProfessorID>
+            <Department>Mathematics</Department>
+            <Courses>
+                <CourseID>MA101</CourseID>
+                <CourseID>MA102</CourseID>
+            </Courses>
+        </Professor>
+    </Professors>
+    
+    <Courses>
+        <Course>
+            <CourseID>CS101</CourseID>
+            <CourseName>Introduction to Computer Science</CourseName>
+            <Credits>3</Credits>
+            <ProfessorID>9001</ProfessorID>
+        </Course>
+        <Course>
+            <CourseID>CS102</CourseID>
+            <CourseName>Data Structures</CourseName>
+            <Credits>3</Credits>
+            <ProfessorID>9001</ProfessorID>
+        </Course>
+        <Course>
+            <CourseID>MA101</CourseID>
+            <CourseName>Calculus I</CourseName>
+            <Credits>4</Credits>
+            <ProfessorID>9002</ProfessorID>
+        </Course>
+        <Course>
+            <CourseID>MA102</CourseID>
+            <CourseName>Linear Algebra</CourseName>
+            <Credits>3</Credits>
+            <ProfessorID>9002</ProfessorID>
+        </Course>
+    </Courses>
+</School>

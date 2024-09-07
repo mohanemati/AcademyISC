@@ -1,0 +1,21 @@
+<Student>
+    <FirstName>Ali</FirstName>
+    <LastName>Rezaei</LastName>
+    <StudentID>12345678</StudentID>
+    <Major>Computer Science</Major>
+    <Semester>4</Semester>
+    <Courses>
+        <Course>
+            <CourseName>Data Structures</CourseName>
+            <Grade>A</Grade>
+        </Course>
+        <Course>
+            <CourseName>Operating Systems</CourseName>
+            <Grade>B+</Grade>
+        </Course>
+        <Course>
+            <CourseName>Database Systems</CourseName>
+            <Grade>A-</Grade>
+        </Course>
+    </Courses>
+</Student>

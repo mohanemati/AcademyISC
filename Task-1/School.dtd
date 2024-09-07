@@ -1,0 +1,16 @@
+<!ELEMENT School (Students,Professors,Courses)>
+<!ELEMENT Students (Student+)>
+<!ELEMENT Student (FirstName,LastName,StudentID,Major,Courses)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT StudentID (#PCDATA)>
+<!ELEMENT Major (#PCDATA)>
+<!ELEMENT Courses (CourseID*,Course*)>
+<!ELEMENT CourseID (#PCDATA)>
+<!ELEMENT Professors (Professor+)>
+<!ELEMENT Professor (FirstName,LastName,ProfessorID,Department,Courses)>
+<!ELEMENT ProfessorID (#PCDATA)>
+<!ELEMENT Department (#PCDATA)>
+<!ELEMENT Course (CourseID,CourseName,Credits,ProfessorID)>
+<!ELEMENT CourseName (#PCDATA)>
+<!ELEMENT Credits (#PCDATA)>

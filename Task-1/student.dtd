@@ -1,0 +1,10 @@
+<!ELEMENT Student (FirstName,LastName,StudentID,Major,Semester,Courses)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT StudentID (#PCDATA)>
+<!ELEMENT Major (#PCDATA)>
+<!ELEMENT Semester (#PCDATA)>
+<!ELEMENT Courses (Course+)>
+<!ELEMENT Course (CourseName,Grade)>
+<!ELEMENT CourseName (#PCDATA)>
+<!ELEMENT Grade (#PCDATA)>
