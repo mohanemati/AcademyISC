@@ -3,6 +3,7 @@ package ir.freeland.springboot.Task;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
@@ -16,8 +17,20 @@ public class corruptedItems {
 	private Item item;
 	
 	
+	 @Id 
+	 @Column(name = "id")
+	  private int id;
+	
 	@Column(name = "reason", length = 50)
 	private String reason;
+	
+	public void setId( int id) {
+		this.id=id;
+	}
+	
+	public int getId() {
+		return id;
+	}
 	
 	public Item getItem() {
 		return item;
