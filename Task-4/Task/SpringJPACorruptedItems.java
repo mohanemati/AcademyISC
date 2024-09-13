@@ -26,6 +26,7 @@ public class SpringJPACorruptedItems {
 		// create
 		transaction.begin();
 		corruptedItems Citem = new corruptedItems();
+		Citem.setId(10);
 		Citem.setItem(allItems.get(0));
 		Citem.setReason("Expired");
 		session.persist(Citem);
